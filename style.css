@@ -1,0 +1,31 @@
+header {
+	text-align: center;
+	background: url('http://amxxcs.ru/wp/sXq2skR.jpg');
+	background-size: cover;
+	colour: navy;
+	font-family: serif;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+ul {
+	padding: 10px;
+	background: rgba(0,0,0,0.5);
+}
+
+li {
+	display: inline-block;
+	padding:0px 10px 0px 10px;
+}
+
+body {
+	colour: navy;
+	font-family: arial;
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 50px;
+}
