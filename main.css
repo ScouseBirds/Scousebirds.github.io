@@ -37,3 +37,10 @@ border-color: #b62f26;
 #why {
 	text-align:center;
 }
+
+img {
+    width:400px;
+    height:200px;
+    vertical-align: middle;
+    margin: auto;
+}
