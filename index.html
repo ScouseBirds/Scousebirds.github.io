@@ -8,6 +8,10 @@
   <title>Student Care</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
 
 </head>
 
@@ -161,7 +165,7 @@
           <div class="form-group">
             <div class="col-sm-offset-1 col-sm-10">
             <br>
-              <button type="submit" class="btn btn-default" id="submit">Submit</button>
+              <button type="submit" class="btn btn-primary" onclick="myFunction()">Submit</button>
             </div>
           </div>
         </div>
@@ -175,5 +179,10 @@
     <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
     <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
   </div>
+  <script>
+    function myFunction() {
+      alert("Thanks! You've signed up to our newsletter!");
+    }
+  </script>
 </body>
 </html>
