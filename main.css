@@ -28,6 +28,15 @@ border-color: #b62f26;
 }
 
 */
+body {
+	background-image: url("backgroundpastelfade.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+background-image {
+	opacity: 0.01;
+}
 
 #carousel {
 	height: 400px;
@@ -43,4 +52,10 @@ img {
     height:200px;
     vertical-align: middle;
     margin: auto;
+}
+.jumbotron{
+	background-color:#FFD1DC;
+} 
+.navbar {
+	background-color: #77DDAA;
 }
