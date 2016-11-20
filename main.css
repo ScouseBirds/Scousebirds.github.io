@@ -1,33 +1,3 @@
-/*#social-buttons button {  
- color: white; 
-} 
-.btn-twitter {  
-background-color: #00acee;  
-border-color: #009ad5; 
-} 
-.btn-facebook {  
-background-color: #4868ac;  
-border-color: #314776; 
-} 
-.btn-pinterest {  
-background-color: #b62f26;  
-border-color: #b62f26; 
-} 
-.jumbotron {
-	min-height: 600px;
-	background-image: url("images/fruit-and-veg.jpg");
-	background-size: cover;
-	background-attachment: fixed;
-}
-.mission {
-	background-color: rgba(32,35,41,0.9)
-	color:#ddd;
-}
-.container-fluid {
-	text-align: center
-}
-
-*/
 body {
 	background-image: url("backgroundpastelfade.jpg");
 	background-repeat: no-repeat;
@@ -55,7 +25,15 @@ img {
 }
 .jumbotron{
 	background-color:#FFD1DC;
+	color: #1ac19d;
 } 
 .navbar {
-	background-color: #77DDAA;
+	background-color: #1ac19d;
+	border-color: #FFD1DC;
+}
+.navbar-inverse .navbar-brand{
+	color:#FFD1DC;
+}
+.nav.navbar-nav.navbar-right li a{
+	color:#FFD1DC;
 }
