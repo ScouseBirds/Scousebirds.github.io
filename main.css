@@ -3,6 +3,7 @@ body {
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
+    font-family: 'Kreon', serif;
 }
 background-image {
 	opacity: 0.01;
@@ -17,23 +18,34 @@ background-image {
 	text-align:center;
 }
 
-img {
-    width:400px;
-    height:200px;
-    vertical-align: middle;
-    margin: auto;
-}
 .jumbotron{
 	background-color:#FFD1DC;
 	color: #1ac19d;
+	margin-bottom: 0;
+	text-align: center;
 } 
 .navbar {
 	background-color: #1ac19d;
-	border-color: #FFD1DC;
+	border-color: #1ac19d;
 }
 .navbar-inverse .navbar-brand{
 	color:#FFD1DC;
 }
 .nav.navbar-nav.navbar-right li a{
 	color:#FFD1DC;
+}
+.carousel-inner .item img {
+	width:800px;
+    height:400px;
+    vertical-align: middle;
+    margin: auto;
+    border-radius: 8px;
+}
+button.btn.btn-info, button.btn.btn-primary{
+	background-color: #1ac19d;
+	border-color:  #1ac19d;
+	color:#FFD1DC;
+}
+.inner {
+	text-align: center;
 }
