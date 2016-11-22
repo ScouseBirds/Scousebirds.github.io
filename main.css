@@ -34,7 +34,7 @@ background-image {
 .nav.navbar-nav.navbar-right li a{
 	color:#FFD1DC;
 }
-.carousel-inner .item img {
+.carousel-inner .item a img {
 	width:800px;
     height:400px;
     vertical-align: middle;
@@ -65,4 +65,22 @@ button.btn.btn-info, button.btn.btn-primary{
 	border-width: thick;
 	border-color: #1ac19d;
 	border-radius:5px;
+}
+p#result {
+	font-size:18px;
+}
+.container#exercise {
+	text-align: center;
+}
+.home h1{
+	text-align: center
+}
+.home a img {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:50%;
+}
+.home h4{
+	text-align: center;
 }

@@ -1,0 +1,26 @@
+function exercisehours() {
+    var x = document.getElementById("hours").value;
+    var y;
+    switch (x)
+    {
+        case "1":
+            y= "You could join a university club or go for a run around your park to get some exercise";
+            break;
+        case "2":
+            y="Try and add another hour of exercise into your routine by walking to the shop instead of taking the bus!";
+            break;
+        case "3":
+            y="Make sure you have both high intensity and low intensity workouts";
+            break;
+        case "4":
+            y="You seem to be very active, careful you don't over do it!";
+            break;
+        default:
+           y=" ";
+            break;
+    }
+    document.getElementById("result").innerHTML = y;
+}
+    function myFunction() {
+      alert("Thanks! You've signed up to our newsletter!");
+    }
