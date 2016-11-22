@@ -45,7 +45,11 @@ button.btn.btn-info, button.btn.btn-primary{
 	background-color: #1ac19d;
 	border-color:  #1ac19d;
 	color:#FFD1DC;
+	font-size:18px;
 }
 .inner {
 	text-align: center;
+}
+.form-group {
+	font-size:18px;
 }
