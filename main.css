@@ -41,6 +41,7 @@ background-image {
     margin: auto;
     border-radius: 8px;
 }
+   
 button.btn.btn-info, button.btn.btn-primary{
 	background-color: #1ac19d;
 	border-color:  #1ac19d;
@@ -52,4 +53,16 @@ button.btn.btn-info, button.btn.btn-primary{
 }
 .form-group {
 	font-size:18px;
+}
+.col-sm-6.col-xs-12 img {
+	width:400px;
+	height:200px;
+	max-width: 100%;
+}
+.important{
+	border:10px black;
+	border-style: solid;
+	border-width: thick;
+	border-color: #1ac19d;
+	border-radius:5px;
 }
