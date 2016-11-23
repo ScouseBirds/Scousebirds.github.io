@@ -41,7 +41,9 @@ background-image {
     margin: auto;
     border-radius: 8px;
 }
-   
+carousel-caption{
+	color:gray;
+}
 button.btn.btn-info, button.btn.btn-primary{
 	background-color: #1ac19d;
 	border-color:  #1ac19d;
@@ -83,4 +85,27 @@ p#result {
 }
 .home h4{
 	text-align: center;
+}
+.block img {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:50%;
+	width:200px;
+	height:200px;
+}
+.container#intro {
+	text-align: center;
+}
+.container#intro h3 {
+	color:;
+}
+.howto {
+	text-align: left;
+}
+.howto h3{
+	color:#1ac19d;
+}
+.howto h4{
+	color:#888888;
 }
