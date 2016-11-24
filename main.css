@@ -98,7 +98,7 @@ p#result {
 	text-align: center;
 }
 .container#intro h3 {
-	color:;
+	color:#888888;
 }
 .howto {
 	text-align: left;
@@ -123,7 +123,22 @@ ul.nav a:hover {
   transition-timing-function: ease-out;
 }
 .inner .fa:hover , .inner .fa:focus , .inner .fa:active{
-  font-size: 300%;
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
+  color: #FFD1DC;
+}
+.fa{
+	color: #1ac19d;
+}
+#kirsty-img {
+	border: 10px #1ac19d;
+}
+.abt-img img {
+	border:10px black;
+	border-style: solid;
+	border-width: thick;
+	border-color: #1ac19d;
+}
+.abt-img img:hover {
+	border-color: #FFD1DC;
 }
